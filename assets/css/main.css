@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Averta-Bold';
+    src: url('./fonts/(Averta-Bold)Averta-Bold.ttf');
+}
+@font-face {
+    font-family: 'Averta-Regular';
+    src: url('./fonts/(Averta-Regular)Averta-Regular.ttf');
+}
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url('./fonts/(DMSans-Regular)DMSans-Regular.ttf');
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Averta-Regular';
+}
+p{
+    font-size: 72px;
+}
