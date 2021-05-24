@@ -15,6 +15,15 @@ html, body {
     height: 100vh;
     width: 100vw;
     font-family: 'Averta-Regular';
+    overflow-x: hidden;
+}
+.hero{
+    background: url('../img/banner.gif') no-repeat center center;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 57%);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
 }
 .banner-container{
     top: 0px;
@@ -24,9 +33,6 @@ html, body {
     width: 100%;
 }
 .banner-img{
-    background-image: url('../img/banner-cropped.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
     width: 100%;
     position: relative;
@@ -65,6 +71,7 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 100%;
 }
 #feel-the-envira{
     color: #fff;
@@ -86,7 +93,7 @@ html, body {
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 96%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: fit-content;
@@ -94,11 +101,13 @@ html, body {
 .card {
     width: 346px;
     height: 386px;
-    margin: 0 50px;
     padding: 40px 15px;
     text-align: center;
     background-color: #fdfdfd;
-    box-shadow: 10px 10px 2px 1px rgba(243, 243, 243, 0.5);
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.margin-card{
+    margin-right: 100px;
 }
 .card-img-top{
     width: 100px;
