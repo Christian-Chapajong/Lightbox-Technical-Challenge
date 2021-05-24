@@ -20,7 +20,10 @@ html, body {
     font-family: 'Averta-Regular';
     /* overflow-x: hidden; */
 }
-h1 {
+h1{
+    font-size: 4rem;
+}
+h2 {
     font-size: 3rem;
 }
 .hero{
@@ -80,6 +83,8 @@ h1 {
     width: 160px;
     height: 50px;
     border-radius: 0;
+    border-width: 3px;
+    font-size: 19px;
 }
 .banner-text{
     position: absolute;
@@ -150,11 +155,12 @@ p#condition{
 .partner-logos img{
     margin: 0 50px;
 }
-.hero2{
+.hero.hero2{
     background: url('../img/bin-man.jpg') no-repeat center center;
     clip-path: none;
     background-size: cover;
-    height: 600px;
+    height: 750px;
+    margin-bottom: 150px;
 }
 .dark-overlay{
     background: #000;
@@ -162,17 +168,34 @@ p#condition{
     height: 100%;
 }
 .banner-text.hero-text{
-    top: 1400px;
-    width: 470px;
+    top: 1440px;
+    width: 630px;
     text-align: left;
     color: #fff;
     left: 0;
     transform: none;
-    margin-left: 200px;
+    margin-left: 125px;
+    margin-bottom: 100px;
 }
 .banner-text.hero-text h1{
     margin-bottom: 25px;
 }
 .banner-text.hero-text p{
     margin-bottom: 25px;
+    font-size: 22px;
+}
+.news-articles-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 150px;
+}
+.news-article{
+    width: 50%;
+}
+.author{
+    color: #2d89fc;
+    font-size: 20px;
+}
+.news-article img{
+    margin-bottom: 20px;
 }
