@@ -1,37 +1,24 @@
-@media only screen and (max-width: 1250px){
-    .margin-card{
-        margin-right: 50px;
+@media only screen and (max-width: 576px){
+    .navbar{
+        padding: 0;
     }
-    .card{
-        width: 285px;
-        height: 385px;
+    .hero{
+        clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 75%);
     }
-    p#condition{
-        margin-top: 20px;
-    }
-}
-@media only screen and (max-width: 992px){
     .card-container{
         flex-direction: column;
-        top: 140%;
+        top: 155%;
     }
     .card{
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         width: 346px;
         height: 346px;
     }
-}
-@media only screen and (max-width: 768px){
     #feel-the-envira, #advantage{
         font-size: 2.5rem;
     }
     #tagline{
         font-size: 18px;
-    }
-}
-@media only screen and (max-width: 576px){
-    .navbar{
-        padding: 0 20px;
     }
 }
