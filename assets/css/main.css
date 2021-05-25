@@ -18,7 +18,10 @@ html, body {
     height: 100vh;
     width: 100vw;
     font-family: 'Averta-Regular';
-    /* overflow-x: hidden; */
+}
+body{
+    position: relative;
+    overflow-x: hidden;
 }
 h1{
     font-size: 4rem;
@@ -29,7 +32,6 @@ h2 {
 h3{
     font-size: 2rem;
 }
-
 /********** Banner and navbar **********/ 
 .hero{
     background: url('../img/banner.gif') no-repeat center center;
@@ -124,7 +126,7 @@ h3{
     transform: translate(-50%, -50%);
     height: fit-content;
 }
-.card {
+.custom-card {
     width: 346px;
     height: 386px;
     padding: 40px 15px;
@@ -158,9 +160,6 @@ p#condition{
     font-family: 'Averta-Bold';
     margin-bottom: 50px;
 }
-.partner-logos{
-    display: inline;
-}
 .partner-logos img{
     margin: 0 50px;
 }
@@ -181,7 +180,7 @@ p#condition{
 }
 .banner-text.hero-text{
     top: 1430px;
-    width: 630px;
+    width: 40%;
     text-align: left;
     color: #fff;
     left: 0;
@@ -195,7 +194,6 @@ p#condition{
 .banner-text.hero-text p{
     margin-bottom: 50px;
     font-size: 20px;
-    width: 580px;
 }
 
 /********** News Articles **********/ 
@@ -203,9 +201,9 @@ p#condition{
     justify-content: center;
     margin-bottom: 125px;
 }
-.news-article{
+/* .news-article{
     width: 50%;
-}
+} */
 .author{
     color: #2d89fc;
     font-size: 20px;
@@ -224,7 +222,7 @@ p#condition{
     font-size: 25px;
     width: 500px;
     margin-left: 250px;
-    padding: 20px;
+    padding: 40px;
     color: #fff;
     background-color: #2d89fc;
 }
@@ -252,6 +250,30 @@ p#condition{
 }
 .button-and-text{
     align-items: flex-end;
-    margin-top: -275px;
+    margin-top: -235px;
     z-index: 100;
+}
+#latest-news-and-updates h4.latest-news-title{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: var(--green);
+    text-align: center;
+}
+#latest-news-and-updates .card{
+    padding: 30px;
+}
+#latest-news-and-updates .col-lg-3{
+    background-color: #f7f7f7;
+    padding: 45px 50px;
+    width: 30%;
+}
+.date-and-type{
+    margin-bottom: 20px;
+}
+#latest-news-and-updates .social-media{
+    background-color: var(--green);
+    color: #fff;
+}
+.social-media h3{
+    margin-top: 115px;
 }
